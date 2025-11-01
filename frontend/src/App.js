@@ -899,4 +899,5 @@ function App() {
 }
 
 export default App;#   i n i t i a l i z e d   R e a c t   m a p   i n t e r f a c e  
+ #   a d d e d   f i l t e r s ,   o v e r l a y s ,   c o l o r - c o d e d   m a r k e r s  
  
