@@ -1,0 +1,28 @@
+/**
+ * File: jsconfig.json
+ * Project: CrisisMap – Multi-Disaster Tracker
+ *
+ * Purpose:
+ * --------
+ * Configures JavaScript language features and path aliasing for the CrisisMap frontend.
+ *
+ * Responsibilities:
+ * - Helps VS Code and build tools understand module imports and directory structure.
+ * - Simplifies imports by allowing cleaner path aliases (e.g., "@/components/ui" instead of long relative paths).
+ * - Ensures consistent code navigation, autocomplete, and IntelliSense in development.
+ *
+ * Notes:
+ * - Works with React + CRACO setup.
+ * - Should remain synchronized with folder names in `src/`.
+ */
+
+
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,39 @@
+/**
+ * File: components.json
+ * Project: CrisisMap – Multi-Disaster Tracker
+ *
+ * Purpose:
+ * --------
+ * Configuration file for the UI component library (shadcn/ui) used in the CrisisMap frontend.
+ *
+ * Responsibilities:
+ * - Defines paths, theme settings, and component registry for automatic imports.
+ * - Helps maintain consistent design tokens across all reusable UI elements.
+ *
+ * Notes:
+ * - Updating this file may regenerate UI components during builds.
+ * - Works together with Tailwind CSS and PostCSS for consistent styling.
+ */
+
+
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": false,
+  "tsx": false,
+  "tailwind": {
+    "config": "tailwind.config.js",
+    "css": "src/index.css",
+    "baseColor": "neutral",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "iconLibrary": "lucide"
+}

@@ -1,0 +1,10 @@
+# CrisisMap - Git Configuration
+# -----------------------------
+# This file defines user-level Git settings for consistent commit formatting,
+# automatic line endings, and project-specific behavior.
+# Maintains team commit consistency across different environments.
+
+
+user]
+	email = github@emergent.sh
+	name = emergent-agent-e1
