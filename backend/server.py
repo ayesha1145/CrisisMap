@@ -506,4 +506,5 @@ async def shutdown_db_client():
 
      """Close MongoDB client cleanly when the server shuts down."""
      
-    client.close()
+    client.close()#   c o n n e c t e d   U S G S   +   N O A A   A P I   m o c k   i n t e g r a t i o n  
+ 
