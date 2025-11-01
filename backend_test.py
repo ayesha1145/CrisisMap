@@ -262,4 +262,5 @@ if __name__ == "__main__":
 print("\n" + "=" * 60)
 print(f"📊 FINAL RESULTS: {tester.tests_passed}/{tester.tests_run} tests passed")
    
+ #   t e s t   f o r   A P I   v a l i d a t i o n  
  
