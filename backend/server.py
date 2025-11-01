@@ -510,4 +510,5 @@ async def shutdown_db_client():
  #   f i x e d   C O R S   i s s u e   p l a c e h o l d e r  
  #   r e f a c t o r e d   e r r o r   h a n d l i n g   l o g i c  
  #   i n t e g r a t e d   b a c k e n d   A P I   w i t h   m a p   v i s u a l i z a t i o n  
+ #   c l e a n e d   u p   e n d p o i n t s   a n d   u p d a t e d   A P I   U R L s  
  
