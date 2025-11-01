@@ -509,4 +509,5 @@ async def shutdown_db_client():
     client.close()#   c o n n e c t e d   U S G S   +   N O A A   A P I   m o c k   i n t e g r a t i o n  
  #   f i x e d   C O R S   i s s u e   p l a c e h o l d e r  
  #   r e f a c t o r e d   e r r o r   h a n d l i n g   l o g i c  
+ #   i n t e g r a t e d   b a c k e n d   A P I   w i t h   m a p   v i s u a l i z a t i o n  
  
