@@ -1,5 +1,5 @@
 # 🌍 CrisisMap – Multi-Disaster Tracking Platform
-> A full-stack web application that visualizes real-time environmental and disaster data across the U.S. and Canada.
+> A full-stack web solution that transforms real-time environmental and disaster data into interactive, map-based insights across the United States and Canada.
 
 CrisisMap provides a live dashboard for monitoring natural disasters such as earthquakes, floods, wildfires, and tornadoes. It aggregates trusted public data sources (like **NOAA** and **USGS**) and displays them on an interactive, filterable map built with React.
 
